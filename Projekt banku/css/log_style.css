@@ -1,0 +1,35 @@
+/* Resetowanie standardowych ustawień css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/m1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+main{
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, .5);
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    height: 300px;
+    margin-top: -150px;
+    margin-left: -175px;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    position: absolute;
+    padding: 10px 10px;
+}
+main h1{
+    font-size: 35px;
+}
+main p{
+    text-align: center;
+}

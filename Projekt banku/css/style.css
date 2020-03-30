@@ -1,0 +1,108 @@
+/* Resetowanie standardowych ustawień css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+header{
+    height: 70vh;
+    background-image: url(../img/m1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/* Ustawienie position: absolute dla wszystkich obiektów w headerze */
+header>*{
+    position: absolute;
+}
+header h1{
+    font-size: 60px;
+    background-color: rgba(0, 0, 0, .5);
+    bottom: 25%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+header a{
+    top: 50px;
+    right: 50px;
+    font-size: 40px;
+    padding: 10px 25px;
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    text-decoration: none;
+    transition: 0.4s;
+}
+header a:hover{
+    background-color: rgba(0, 0, 0, .6)
+}
+/* Ogólna klasa do czyszczenia floatów */
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+nav{
+    background-color: black;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+nav ul li a{
+    font-size: 30px;
+    color: white;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    transition: 0.6s;
+}
+nav ul li a:hover{
+    background-color: gray;
+}
+main{
+    margin: 20px;
+    padding: left;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+article{
+    padding: 20px;
+}
+article p{
+    margin-top: 10px;
+    text-indent: 20px;
+}
+article.inf{
+    width: 70%;
+    float: left;
+}
+article.contact{
+    width: 30%;
+    float: left;
+}
+article.contact ul{
+    list-style: none;
+    margin-top: 10px;
+}
+footer{
+    background-color: silver;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}

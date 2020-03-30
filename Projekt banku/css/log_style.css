@@ -1,0 +1,61 @@
+/* Resetowanie standardowych ustawień css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/m1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+main{
+    position: absolute;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, .5);
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -175px;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    padding-top: 50px;
+}
+main .title{
+    margin-bottom: 25px;
+    font-size: 35px;
+}
+.subtitle1{
+    margin-top: 35px;
+    margin-right: 130px;
+    margin-bottom: 2px;
+    font-size: 12px;
+}
+.subtitle2{
+    margin-top: 35px;
+    margin-bottom: 2px;
+    margin-right: 130px;
+    font-size: 12px;
+}
+.place{
+    height: 35px;
+}
+.button {
+    margin-top: 35px;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    vertical-align: middle;
+    padding: 12px 28px;
+    border-radius: 0px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
